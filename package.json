@@ -4,7 +4,7 @@
   "description": "wrap a function to accept only one argument",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/undoZen/fn-unary/issues"
   },
-  "homepage": "https://github.com/undoZen/fn-unary"
+  "homepage": "https://github.com/undoZen/fn-unary",
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  }
 }
